@@ -4,7 +4,9 @@
 
 This method achieves automatic modulation classification by calculating the optimal matching distance between known samples and the query sample. Initially, a feature extraction module splits the signal into I and Q paths to extract features separately. Subsequently, a channel attention module is employed to obtain signal features with channel weights. Finally, the features of known signals and the query signal are sent to the EMD (Empirical Mode Decomposition) module to determine the corresponding category. A cross-reference mechanism is utilized to derive the weights for each feature. Additionally, for multiple known samples of each category, a class prototype extraction module is used to obtain the characteristic features. Simulation experiment results on the RadioML2016.10A dataset demonstrate the effectiveness of the proposed method.
 
-![RadioML2016.10a Dataset Example](https://github.com/bai-xiaosheng/DeepEMD/assets/68796611/e27fd884-0d7c-456b-bae3-9cddfafce24d)
+<p align="center">
+  <img src="https://github.com/bai-xiaosheng/DeepEMD/assets/68796611/e27fd884-0d7c-456b-bae3-9cddfafce24d" alt="RadioML2016.10a Dataset Example" width="60%">
+</p>
 
 ### Main Contributions
 
@@ -27,8 +29,11 @@ This method achieves automatic modulation classification by calculating the opti
 
 The project utilizes the RadioML2016.10a dataset. Below is an example of the dataset samples:
 
-![Dataset Sample](https://github.com/bai-xiaosheng/DeepEMD/assets/68796611/617f7a5b-c938-42a2-99a2-bbf910b75d4a)
+<p align="center">
+  <img src="https://github.com/bai-xiaosheng/DeepEMD/assets/68796611/617f7a5b-c938-42a2-99a2-bbf910b75d4a" alt="Dataset Sample" width="60%">
+</p>
 
+Dataset in detail：
 | Dataset Attribute       | Description                                                                                   |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Data Source            | Digital modulation signals, Shakespeare's Gutenberg texts, analog modulation signals, TV series "Serial Episode" |
